@@ -12,7 +12,8 @@ def load_library (emoticon_library)
     # emoticons.insert(0,'english'.to_sym)
     # emoticons.insert(-2,'japanese'.to_sym)
     # binding.pry
-    emoticon_library[emotion] = Hash[*emoticons]
+    # emoticon_library[emotion] = Hash[*emoticons]
+    emoticon_library[emotion] = {}
     # binding.pry
   end
   emoticon_library
