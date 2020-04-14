@@ -13,10 +13,10 @@ def load_library (emoticon_library)
     # emoticons.insert(-2,'japanese'.to_sym)
     # binding.pry
     emoticon_library[emotion] = Hash[*emoticons]
-    binding.pry
     # binding.pry
   end
   emoticon_library
+  binding.pry
 end
 
 def get_english_meaning(emoticon_library, emoticon_input)
