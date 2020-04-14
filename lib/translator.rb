@@ -14,7 +14,7 @@ def load_library (emoticon_library)
     # binding.pry
     # emoticon_library[emotion] = Hash[*emoticons]
     emoticon_library[emotion] = {}
-    # binding.pry
+    binding.pry
   end
   emoticon_library
   binding.pry
