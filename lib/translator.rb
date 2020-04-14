@@ -7,12 +7,13 @@ def load_library (emoticon_library)
   # code goes here
   emoticon_library = YAML.load_file('./lib/emoticons.yml')
   emoticon_library.each do |emotion, emoticons|
-    
+
     # binding.pry
     # emoticons.insert(0,'english'.to_sym)
     # emoticons.insert(-2,'japanese'.to_sym)
     # binding.pry
     emoticon_library[emotion] = Hash[*emoticons]
+    binding.pry
     # binding.pry
   end
   emoticon_library
